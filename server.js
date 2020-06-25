@@ -22,7 +22,7 @@ connection.once('open', () => {
 
 //Import the files
 const sensorsRouter = require('./routes/sensors');
-//Use the files,
+
 //when a request is made using '/ in the request, the sensors router file is loaded
 app.use('/', sensorsRouter);
 
