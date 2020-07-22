@@ -17,21 +17,6 @@ const sensorSchema = new Schema({
     PMTen: {
         type: Number,
     },
-    NoOfPartsGreaterThanPointThree: {
-        type: Number,
-    },
-    NoOfPartsGreaterThanPointFive: {
-        type: Number,
-    },
-    NoOfPartsGreaterThanOne: {
-        type: Number,
-    },
-    NoOfPartsGreaterThanTwoFive: {
-        type: Number,
-    },
-    NoOfPartsGreaterThanFive: {
-        type: Number,
-    },
     TemperatureDHT11: {
         type: Number,
     },
