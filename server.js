@@ -26,6 +26,7 @@ const sensorsRouter = require('./routes/sensors');
 //when a request is made using '/ in the request, the sensors router file is loaded
 app.use('/', sensorsRouter);
 
-app.listen(port, () => {//Tell the server to start listening on the given port
-    console.log(`Server is running on port: ${port}`);
+app.listen(port, error => {//Tell the server to start listening on the given port
+    if(error) throw error;//Error checking
+  console.log(`Server is running on port: ${port}`);
 });
