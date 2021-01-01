@@ -40,8 +40,6 @@ app.use(xss());
 //Middleware to compress all text that is sent to clients on api responses
 app.use(compression());
 
-
-
 //ROUTES
 app.use("/data", dataRouter);
 /* 
