@@ -18,11 +18,8 @@ app.options("*", cors()); //Do this on all routes *
 app.use(express.json({ limit: "10kb" })); //Middleware that allows for parsing json, only allow parsing req bodies of 10kb size or smaller - helps against Dos attacks
 app.use(express.static(path.join(__dirname, "public"))); // Serve index.html in public folder on the home route
 
-//Development logging
-if (process.env.NODE_ENV === "development") {
-  //USE THESE MIDDLEWARES DURING DEVELOPMENT ONLY
-  app.use(morgan("dev")); //Logs the incoming request method and route, response code, time it took to send back the response and size of the response in bytes
-}
+app.use(morgan("dev")); //Logs the incoming request method and route, response code, time it took to send back the response and size of the response in bytes
+
 
 //Rate-limiting middleware to count number of requests from an IP address and block these requests when too many have been received
 //Helps protect against DOS and brute force attacks
