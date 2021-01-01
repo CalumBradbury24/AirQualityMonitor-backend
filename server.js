@@ -20,6 +20,7 @@ mongoose //Connect to mongodB database
     useFindAndModify: false,
     useUnifiedTopology: true,
     useNewUrlParser: true,
+    dbName: "AirCluster"
   })
   .then(() => console.log("DB connection successful"));
 
