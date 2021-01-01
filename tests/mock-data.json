@@ -1,0 +1,32 @@
+[
+    {
+        "_id": "5f9d48a6ad889d045d294905",
+        "SensorID": 1,
+        "PMOne": 38,
+        "PMTwoFive": 57,
+        "PMTen": 61,
+        "NoOfPartsGreaterThanPointThree": 6897,
+        "NoOfPartsGreaterThanPointFive": 2019,
+        "NoOfPartsGreaterThanOne": 274,
+        "NoOfPartsGreaterThanTwoFive": 38,
+        "NoOfPartsGreaterThanFive": 4,
+        "TemperatureDHT11": 21.799999237060547,
+        "HumidityDHT11": 87.4000015258789,
+        "date": "2020-10-31T11:21:00.291Z"
+    },
+    {
+        "_id": "5f9d56acad889d045d294906",
+        "SensorID": 1,
+        "PMOne": 39,
+        "PMTwoFive": 59,
+        "PMTen": 63,
+        "NoOfPartsGreaterThanPointThree": 7038,
+        "NoOfPartsGreaterThanPointFive": 2063,
+        "NoOfPartsGreaterThanOne": 293,
+        "NoOfPartsGreaterThanTwoFive": 36,
+        "NoOfPartsGreaterThanFive": 4,
+        "TemperatureDHT11": 22,
+        "HumidityDHT11": 85.69999694824219,
+        "date": "2020-10-31T12:21:00.291Z"
+    }
+]
