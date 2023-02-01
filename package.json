@@ -20,7 +20,7 @@
     "express-rate-limit": "^5.2.3",
     "helmet": "^4.3.1",
     "jest": "^26.6.3",
-    "mongoose": "^5.9.20",
+    "mongoose": "^5.13.15",
     "morgan": "^1.10.0",
     "node-mocks-http": "^1.9.0",
     "nodemon": "^2.0.6",
